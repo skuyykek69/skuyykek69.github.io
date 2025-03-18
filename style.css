@@ -81,7 +81,6 @@ header {
 /* MAIN */
 main {
   position: relative; /* Penting untuk positioning pseudo-elemen */
-  /* Hapus properti background-image, background-size, dll. dari sini */
   width: 100%;
   min-height: 90dvh;
   max-width: 800px;
@@ -109,7 +108,7 @@ main::before {
   z-index: -1; /* Letakkan di belakang konten main */
 
   animation: showHeight80px 1.5s ease-in-out forwards;
-  animation-delay: 2.5s;
+  animation-delay: 3s;
 }
 
 .hello-text {
@@ -177,6 +176,10 @@ main::before {
   animation-delay: 1.8s;
   opacity: 0;
   transform: translateY(20px);
+}
+
+.left {
+  text-align: left;
 }
 
 .right {
